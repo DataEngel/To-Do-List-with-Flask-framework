@@ -1,0 +1,11 @@
+virtualenv FlaskP --python=python3.7
+
+pip3 install flask==1.0.2
+
+pip freeze
+
+pip3 install -r requirements.txt  
+
+export FLASK_APP 
+
+echo FLASK_APP
