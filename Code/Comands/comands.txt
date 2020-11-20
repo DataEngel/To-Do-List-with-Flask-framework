@@ -9,3 +9,5 @@ pip3 install -r requirements.txt
 export FLASK_APP 
 
 echo FLASK_APP
+
+
