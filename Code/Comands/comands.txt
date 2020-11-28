@@ -21,3 +21,6 @@ source server.sh
 
 * Para correr nuestro sevidor local de flask 
 flask run 
+
+* Hard reload 
+ctrl + shift + r 
