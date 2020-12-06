@@ -1,0 +1,26 @@
+* Para crear el entorno virtual
+virtualenv ToDoList --python=python3.8
+
+* Para instalar flask 
+pip3 install flask==1.0.2
+
+* Para ver las dependencias instalados junto con su versión 
+pip freeze
+
+* Para instalar las dependencias 
+pip3 install -r requirements.txt  
+
+* Para agregar las variables de entorno 
+export FLASK_APP 
+
+* Para ver las variables de entorno que se agregaron
+echo FLASK_APP
+
+* Para agregar las variables de entorno 
+source server.sh
+
+* Para correr nuestro sevidor local de flask 
+flask run 
+
+* Hard reload 
+ctrl + shift + r 
