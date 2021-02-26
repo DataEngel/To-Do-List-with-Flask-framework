@@ -1,3 +1,9 @@
+* Instalar virtualenv 
+pip install virtualenv 
+
+* Activar entorno en Windows
+.\ToDoList\Scripts\activate 
+
 * Para crear el entorno virtual
 virtualenv ToDoList --python=python3.8
 
